@@ -1,0 +1,298 @@
+
+//ik wil een account aanmaken//
+
+Test Case ID 			- 1
+
+Test case Description 		- Een account aanmaken om te inloggen.
+
+
+Test steps   			- Gebruikers naam en de wachtwoord invoeren
+	     			- Email adres invoeren
+	     			- Klik op account aanmaken
+	     			- Melding account aangemaakt
+
+
+Pre-requisites 			- Een database moet aangemaakt zijn om gegevens op te slaan
+Depth -
+Test category 			- account 
+
+Author 				- Dushanthan
+
+Automation 			- handmatig testen
+Pass/fail 			-
+Remarks 			-
+
+
+ 
+
+
+ //ik wil een account aanmaken//
+
+Test Case ID 			- 2
+
+Test case Description 		- (testen of het werkt zonder gegevens)
+
+
+Test steps 			- klik op account aanmaken (zonder email adres in te voeren)
+	   			- Melding vull alle gegevens in
+	 
+Pre-requisites 			- Een database moet aangemaakt zijn om gegevens op te slaan
+Depth 				-
+Test category 			- account 
+
+Author				- Dushanthan
+
+Automation 			- handmatig testen
+Pass/fail 			-
+Remarks 			-
+
+
+
+// ik wil kunnen inloggen //
+
+Test Case ID 			- 3
+
+Test case Description 		- Gebruiker moet inloggen om een profiel te maken.
+
+Test steps 			- Gebruikers naam en de wachtwoord invoeren
+	   			- klik op inloggen 
+           			- Melding inloggen gelukt (je komt nu in de hoofdpagina waar je een nieuwe profiel kunt aanmaken)
+	
+Pre-requisites 			- Gebruiker moet aangemaakt zijn in de database
+Depth 				-
+Test category 			- login pagina
+
+Author 				- Dushanthan
+
+Automation 			- handmatig testen
+Pass/fail 			-
+Remarks 			-
+
+
+
+
+// ik wil kunnen inloggen //
+
+Test Case ID 			- 4
+
+Test case Description 		- testen met foute gegevens
+
+Test steps 			- Gebruikers naam of wachtwoord verkeerd ingevoerd
+	   			- klik op inloggen 
+           			- Melding gebruikers naam of wachtwoord verkeerd probeer nog een keer.
+	
+Pre-requisites 			- Gebruiker moet aangemaakt zijn in de database
+Depth 				-
+Test category 			- login pagina
+
+Author 				- Dushanthan
+
+Automation 			- handmatig testen
+Pass/fail 			-
+Remarks 			-
+
+
+
+	   - 
+	   
+// Ik wil mijn eigen profiel kunnen aanmaken en bewerken //
+
+Test Case ID 			- 5
+
+Test case Description 		- profiel aanmaken met persoonlijke gegevens
+
+Test steps 			- 
+	   			- klik op de knop  (Een nieuwe profiel aanmaken)
+	   			- (voor en achternaam, foto, leeftijd, opleiding, sterke eigenschappen, hobby`s)
+	   			- klik op profiel aanmaken
+	   			- Melding profiel aangemaakt
+	   			
+	   
+Pre-requisites 			- Een gebruiker moet ingelogd zijn.
+Depth 				-
+Test category 			- profiel aanmaken
+
+Author 				- Dushanthan
+
+Automation 			- handmatig.
+Pass/fail 			-
+Remarks 			-
+
+
+
+
+
+// Ik wil mijn eigen profiel kunnen aanmaken en bewerken //
+
+
+Test Case ID 			- 6
+
+Test case Description 		- testen met een lege vak
+
+
+Test steps 			- klik op profiel aanmaken (zonder naam in te vullen)
+           			- Melding vul alle velden in
+	   
+	   
+Pre-requisites 			- Een gebruiker moet ingelogd zijn.
+Depth 				-
+Test category 			- profiel aanmaken
+Author				- Dushanthan
+
+Automation 			- handmatig
+Pass/fail			-
+Remarks 			-
+
+
+
+
+
+
+// Ik wil mijn eigen werkervaring en projecten kunnen aanmaken/bewerken //
+
+Test Case ID 			- 7
+
+Test case Description 		- Werkervaring en projecten toevoegen
+
+Test steps 			- klik op de knop werkervaring/projecten toevoegen
+	   			- voer de werkervaring/projecten in
+	   			- klik  op de knop toevoegen 
+	   			- Melding werkervaring/projecten toegevoegd
+
+	   
+	   
+Pre-requisites 			- Account moet aangemaakt zijn
+	       			- Je moet ingelogd zijn
+	       			- een profiel moet aangemaakt zijn.
+
+Depth 				-
+Test category 			- werkervaring/projecten
+
+Author				- Dushanthan
+
+Automation 			- handmatig
+Pass/fail -
+Remarks -
+
+
+
+
+// IIk wil mijn eigen werkervaring en projecten kunnen aanmaken/bewerken //
+
+Test Case ID 			- 8
+
+Test case Description 		- testen zonder gegevens
+
+Test steps 			- klik op de knop toevoegen (zonder iets in te vullen)
+           			- Melding vul alle velden in
+	   
+	   
+Pre-requisites 			- Je moet ingelogd zijn
+				- 
+
+Depth 				- 
+Test category 			- 
+Author				- Dushanthan
+
+Automation 			- handmatig
+Pass/fail 			-
+Remarks 			-
+
+
+
+
+
+
+
+// Ik wil mij skills eenvoudig kunnen benoemen //
+
+Test Case ID 			- 9
+
+Test case Description 		- Skills toevoegen
+
+Test steps 			- klik op de knop skills toevoegen
+	   			- (data in voeren) 
+	   			- Melding skills toegevoegd
+	   		
+	   
+	   
+Pre-requisites 			
+	       			- Je moet ingelogd zijn
+	       			
+
+
+Depth 				-
+
+
+Test category 			- skills toevoegen
+
+Author				- Dushanthan
+
+Automation 			- handmatig
+Pass/fail -
+Remarks -
+
+
+
+
+
+
+// Ik wil gebruikers kunnen zoeken op basis van naam of bedrijf waar ze gewerkt hebben //
+
+Test Case ID 			- 10
+
+Test case Description 		- 
+	   			- 
+	   			- 
+	   			- 
+	   			- 
+           			- 
+	   
+	   
+Pre-requisites 			- 
+
+Depth 				-
+
+
+Test category 			- 
+
+Author				- Dushanthan
+
+Automation 			- 
+Pass/fail 			-
+Remarks 			-
+
+
+
+
+
+// Ik wil berichten kunnen plaatsen als mijzelf //
+
+Test Case ID 			- 11
+
+Test case Description 		- 
+Test steps 			- 
+	   			- 
+	   			- 
+	   			- 
+	   			- 
+           			- 
+	   
+	   
+Pre-requisites 			- een profiel moet aangemaakt zijn.
+
+Depth 				-
+
+
+Test category 			- 
+
+Author				- Dushanthan
+
+Automation 			- handmatig
+
+Pass/fail 			-
+Remarks 			-
+
+
+
+
